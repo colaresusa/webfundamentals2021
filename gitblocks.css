@@ -1,0 +1,42 @@
+div.background {
+  height: auto;
+  width: auto;
+  background-color: bisque;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  font-size: 70px;
+}
+img {
+  height: 200px;
+  margin: 20px;
+  background-color: white;
+}
+.concat {
+  background-color: white;
+}
+div.bluebanner {
+  height: 250px;
+  width: auto;
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+div.pinkbanner {
+  height: 250px;
+  width: auto;
+  background-color: pink;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+div.whitebanner {
+  height: 250px;
+  width: auto;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
