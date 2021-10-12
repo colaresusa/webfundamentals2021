@@ -1,0 +1,184 @@
+div.nav {
+  background-color: rgb(46, 43, 43);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Roboto;
+}
+li {
+  display: inline-block;
+  margin: 20px;
+}
+.nav-title {
+  margin-left: 20px;
+}
+li > a {
+  text-decoration: none;
+  color: white;
+}
+.btn {
+  background-color: cornflowerblue;
+  color: white;
+  border: 3px black solid;
+  height: 50px;
+  width: 100px;
+  font-size: 20px;
+  box-shadow: 10px 5px 5px black;
+}
+.nav-links {
+  font-family: sans-serif;
+}
+
+.active {
+  font-weight: bolder;
+  font-size: larger;
+}
+.profile {
+  background-color: white;
+  border: 2px solid gray;
+  height: auto;
+  width: 700px;
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.banner {
+  background-color: rgb(128, 128, 236);
+  height: 100px;
+  width: 100%;
+  display: inline;
+  padding-top: 30px;
+}
+.user {
+  height: 150px;
+  box-shadow: gray 1px 2px 5px;
+  border-radius: 99%;
+  margin-left: 30px;
+  margin-top: -50px;
+  align-self: flex-start;
+  display: inline;
+}
+.map {
+  display: inline-block;
+  height: 20px;
+  display: inline-block;
+}
+h2 {
+  display: inline;
+  font-family: sans-serif;
+  margin-left: 20px;
+}
+h1 {
+  font-family: sans-serif;
+}
+.gear {
+  height: 20px;
+  display: inline;
+  margin-bottom: -5px;
+  margin-right: 5px;
+}
+
+.cont {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  display: inline;
+  margin-left: 20px;
+  font-family: sans-serif;
+}
+.profile > a {
+  display: inline-block;
+}
+
+.connect {
+  border: 1px solid gray;
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column;
+}
+.connect img {
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 99%;
+  margin: 5px 20px -20px 0px;
+}
+.connect li {
+  display: block;
+  font-family: sans-serif;
+}
+.connectban {
+  color: white;
+  background-color: black;
+  padding: 10px 0px 10px 5px;
+}
+.connectban a {
+  text-decoration: none;
+  color: white;
+  background-color: gray;
+  border-radius: 99%;
+  padding: 10px;
+  margin: 0px 10px 0px 10px;
+}
+.connect h3 {
+  border-top: 1px solid gray;
+  font-family: sans-serif;
+}
+.edu {
+  border: 1px solid gray;
+  margin: 30px;
+}
+.eduban {
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+.edu p {
+  padding-left: 10px;
+  font-family: sans-serif;
+}
+.edu h1 {
+  padding-left: 10px;
+  font-family: sans-serif;
+}
+.block {
+  border: 1px solid gray;
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column;
+  margin: 30px;
+  width: 500px;
+}
+.block img {
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 99%;
+  margin: 5px 20px -20px 0px;
+}
+.block li {
+  display: block;
+  font-family: sans-serif;
+}
+.blockedban {
+  color: white;
+  background-color: black;
+  padding: 10px;
+}
+.blockedban a {
+  text-decoration: none;
+  color: white;
+  background-color: gray;
+  border-radius: 99%;
+  padding: 5px 20px 5px 20px;
+  margin-right: 10px;
+}
+#usercards {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
