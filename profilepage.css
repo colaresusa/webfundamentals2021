@@ -101,6 +101,9 @@ h1 {
   display: flex;
   justify-content: flex-start;
   flex-flow: column;
+  height: auto;
+  width: 500px;
+  margin: -100px 30px 30px -30px;
 }
 .connect img {
   height: 100px;
@@ -132,6 +135,9 @@ h1 {
 .edu {
   border: 1px solid gray;
   margin: 30px;
+  order: -1;
+  width: 900px;
+  height: auto;
 }
 .eduban {
   color: white;
@@ -180,5 +186,10 @@ h1 {
 #usercards {
   display: flex;
   align-items: flex-start;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+#connections {
+  display: flex;
+  justify-content: space-between;
 }
