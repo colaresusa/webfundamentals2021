@@ -1,0 +1,57 @@
+.nav-bar {
+  background-color: gray;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-bar h1 {
+  font-family: sans-serif;
+}
+.nav-bar input {
+  width: 50%;
+  align-self: center;
+}
+.nav-bar button {
+  color: black;
+  background-color: blue;
+  padding: 10px 25px 10px 25px;
+  font-size: larger;
+  font-weight: bold;
+  box-shadow: 10px 5px 5px rgb(70, 62, 62);
+  border: 1px solid black;
+}
+.ninja-definition-1 {
+  border: 1px solid black;
+  margin: 20px;
+  width: 500px;
+  height: 250px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: space-between;
+  justify-content: center;
+  padding: 20px;
+}
+.ninja-definition-1 button {
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+  border: 1px solid black;
+}
+.ninja-definitions {
+  display: flex;
+  justify-content: space-between;
+}
+.add-definition {
+  border: 1px solid black;
+  height: 250px;
+  width: 200px;
+  margin: 20px;
+}
+.add-definition button {
+  background-color: greenyellow;
+  border: 1px solid black;
+  width: 150px;
+  align-self: center;
+}
