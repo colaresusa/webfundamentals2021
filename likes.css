@@ -1,0 +1,37 @@
+body > h1 {
+  color: white;
+  background-color: black;
+}
+.neilM {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 20px;
+}
+.nicholeK {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 20px;
+}
+.jimR {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 20px;
+}
+.feed img {
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 99%;
+}
+.user {
+  border: 1px solid black;
+  padding: 20px;
+  width: min-content;
+}
+button {
+  color: black;
+  background-color: yellow;
+  border: 1px solid black;
+  font-size: larger;
+  padding: 5px 10px 5px 10px;
+  box-shadow: 2px 2px;
+}
